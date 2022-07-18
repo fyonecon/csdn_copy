@@ -15,3 +15,28 @@ Chrome：https://chrome.google.com/webstore/detail/ace-script/mjbepbhonbojpoaenh
 2. 如下js包含名称、匹配的网站；
 
 3. 要执行的js代码。
+
+```javascript
+
+// ==UserScript==
+// @name CSDN Copy
+// @namespace AceScript Scripts
+// @match *://blog.csdn.net/*
+// @grant none
+// ==/UserScript==
+const bra = {
+  del_csdn_copy: function (){
+      console.log("del_csdn_copy-fyonecon");
+      let blog = document.getElementById("content_views");
+      blog.setAttribute("id", "content_views2");
+  },
+};
+
+(function (){
+  "use strict";
+  bra.del_csdn_copy();
+
+})();
+
+```
+
