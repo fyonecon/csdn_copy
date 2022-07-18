@@ -1,8 +1,8 @@
 ### 利用浏览器插件暴力猴，解决不登录复制csdn代码的问题。
 
-你可以参考博客文章：https://blog.csdn.net/weixin_41827162/article/details/125853173
+> 博客文章：https://blog.csdn.net/weixin_41827162/article/details/125853173
 
-### 过程
+### 操作过程
 1）浏览器插件商店下载（这里用的是某猴Violentmonkey或某猴ace-script）：
 
 Edge：https://microsoftedge.microsoft.com/addons/detail/%E6%9A%B4%E5%8A%9B%E7%8C%B4/eeagobfjdenkkddmbclomhiblgggliao
